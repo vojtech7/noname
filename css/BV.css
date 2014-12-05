@@ -1,0 +1,53 @@
+span#novy_BV {position: absolute;
+			top: 5;
+			left: 320;}
+table#hlavicka {position: absolute; top: 80px; left: 330px;
+			   border-collapse: collapse;
+			   border: solid 1px black;
+			   width: 650px;
+			   text-align: center;
+
+			   background: #999999;
+			   }
+td.zaklad {color: white;
+		   font-weight: bold;
+		   font-size: 17;
+		   width: 100;
+		   }
+input#frm-radku, input#frm-c_vypisu {width: 80px;}
+input#trm-date {width: 100px;}
+table#seznam {position: absolute;
+			  top: 150;
+			  left: 300;
+			  width: 700;
+			  height: 300;
+			  border-collapse: collapse;
+			  text-align: center;
+
+}
+input.next_row {width: 100;
+				margin-bottom: 190px;
+				border: 1px solid black;
+				}
+div.novy_vypis {background: #B2B2B2;
+				   color: white;
+				   width: 900px;
+				   height: 600px;
+				   margin-left: auto;
+				   margin-right: auto;
+				   position: relative;
+				}
+div.novy_vypis table#seznam tr#first_row {height: 20;
+							 }
+div.novy_vypis table#seznam tr#next_row {height: 25}
+td.first_row {height: 30px;
+			  font-size: 18px;}
+input#ulozit {position: absolute;
+			  top: 500;
+			  left: 720;
+			}
+input#zpet{position: absolute;
+			top: 500;
+			left: 500;}
+div#dalsi {position: absolute; top: 205px; right: 250px;
+			width: 100px;}

@@ -1,0 +1,64 @@
+body {background: #00CC4C;}
+div.novy_dokument {background: #B2B2B2;
+				   color: white;
+				   width: 900px;
+				   height: 600px;
+				   margin-left: auto;
+				   margin-right: auto;
+				   position: relative;
+				}
+div.novy_dokument span.nadpis_tabulky {font: arial;
+					 font-style: italic;
+					 color: black;
+					}
+div#cislo_f {margin-top: 20px;
+			 max-width: 300px;
+			 position: relative; right: -20;
+			 }
+div#odberatel {position: absolute; top: 45; right: -50;
+			   width: 530px;
+			}
+
+div#pullquote {float: right;
+			   position: relative; top: 27; right: 390;
+			   font-size: 16px;
+			   line-height: 1.45;
+			   font-weight: bold;
+			   color: black;
+			}
+tr.first_row {font: bold 20px arial;
+			  border-bottom: 10px solid red;
+			  text-align: center;
+			}
+tr.last_row {font: italic bold 15px/1.5 Arial;
+			 
+			}
+td.first_column {width: 70px;
+				 font: italic bold 15px/1.5 Arial;
+				 border-right: 1px solid black;
+			   }
+span.nadpis_tabulky {position: relative; top: 0; right: -300;
+					  font: italic 20px arial;
+
+					  }
+table.sazby {position: absolute; top: 180; right: 50;
+			 border: 3px groove gray;
+			 width: 500;
+			 height: 230;
+			}
+table.sazby input.vstup {width: 100}
+table.sazby input.sDPH {width: 150;
+						}
+table.sazby td.posledni {border-spacing: 20px 50px;}
+div#castka {width: 530px;}
+div#popis {position: relative; top: -85px; right: -350;
+		   width: 500;
+		}
+input#prepis {position: relative; top: -55px; right: -20px;
+			width: 450;}
+input.tlacitko {width: 150;
+				height: 50;
+			}
+input#ulozit {position: absolute; top: 515px; right: 150px;
+			}
+input#zpet {position: absolute; top: 515px; right: 400px;}

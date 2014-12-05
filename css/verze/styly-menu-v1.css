@@ -1,0 +1,138 @@
+body {
+	background: #00CC4C;
+}
+
+.top-menu {
+	position: absolute;
+	/*margin-left: 11em;
+	top: 50;
+	*/
+}
+
+.top-menu table{
+	padding: inherit;
+	border: none;
+}
+
+.top-menu td {
+	background: red;
+	padding: inherit;
+	min-width: 120px;
+}
+
+.top-menu a{
+	color: black;
+	text-decoration: none;
+}
+
+.top-menu a:hover{
+	background: yellow;
+}
+
+.top-menu td:focus {
+	background: yellow;
+}
+
+ul#left-menu {
+	position: absolute;
+	top: 100px;
+	width: 11em;
+	z-index: 20;
+	margin: 0;
+	padding: 0;
+}
+
+ul#left-menu a {
+	border: 2px solid #ccc;
+	background: black;
+	color: white;
+	line-height: 1.3em;
+	overflow: hidden;
+}
+
+ul#left-menu * {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+ul#left-menu ul {
+	display: none;
+	width: 11em;
+	position: absolute;
+	left: 11em;
+	top: 0;
+}
+
+ul#left-menu ul#podnabidka-2 {
+	left: 11em;
+	top: 1.5em;
+}
+
+ul#left-menu ul#podnabidka-3 {
+	left: 11em;
+	top: 3em;
+}
+
+ul#left-menu ul#podnabidka-4 {
+	left: 11em;
+	top: 4.5em;
+}
+
+ul#left-menu ul#podnabidka-5 {
+	left: 11em;
+	top: 6em;
+}
+
+ul#left-menu ul#podnabidka-6 {
+	left: 11em;
+	top: 7.5em;
+}
+
+ul#left-menu:hover>li>ul, ul#left-menu>li>ul:hover>li>ul{
+	display: block;
+}
+
+ul#left-menu a:hover, ul#left-menu a:focus {
+	background: yellow;
+	color: red;
+}
+
+ul#left-menu a#nabidka:hover, ul#left-menu a#nabidka:focus {
+	background: lime;
+	color: black;
+}
+
+.main {
+	margin-left: 13em;
+	position: absolute;
+	top: 50;
+}
+
+.main table {
+	margin-left: 0;
+}
+
+table {
+	border-width: thin; 
+	border-style: solid; 
+	border-color: black;
+}
+th {
+	border-width: thin; 
+	border-style: solid; 
+	border-color: black
+}
+td {
+	text-align: center;
+	border-width: thin; 
+	border-style: solid; 
+	border-color: black
+}
+tr {
+	border-width: thin; 
+	border-style: solid; 
+	border-color: black
+}

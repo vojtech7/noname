@@ -1,0 +1,158 @@
+body {
+	background: #00CC4C;
+}
+
+/***********************************************************************
+************************************************************************
+	                       Hlavni cast stranky
+************************************************************************
+************************************************************************
+*/
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -175;
+	background: #B2B2B2;
+	width: 900;
+	height: 600;
+	/*
+	border: 1px solid #000;
+	*/
+}
+
+.main table {
+	border: 1px solid #000;
+}
+
+.main table.info {
+	border-spacing: 0;
+	border: none;
+}
+
+.main table.info tr td {
+	padding: 0;
+	border: none;
+}
+
+.main td, .main th {
+	border: 1px solid #000;
+	text-align: center;
+	width: 7em;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+#dataTable {
+	position: absolute;
+	top: 100;
+	left: 60px;
+}
+
+/***********************************************************************
+************************************************************************
+	                       Horni menu
+************************************************************************
+************************************************************************
+*/
+
+.top-menu {
+	position: absolute;
+	/*margin-left: 11em;
+	top: 50;
+	*/
+}
+
+.top-menu table{
+	padding: inherit;
+	border: none;
+}
+
+.top-menu td {
+	background: red;
+	padding: inherit;
+	width: 120px;
+	text-align: center;
+	border: 2px solid #000;
+}
+
+.top-menu a{
+	color: black;
+	text-decoration: none;
+}
+
+.top-menu td:hover{
+	background: yellow;
+}
+
+.top-menu td:focus {
+	background: yellow;
+}
+
+/***********************************************************************
+************************************************************************
+	                       Leve menu
+************************************************************************
+************************************************************************
+*/
+
+
+#menu, #menu ul, #menu li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	z-index: 20;
+	text-align: center;
+}
+
+#menu li {
+	list-style: none;
+	position: relative;
+	width: 120px;
+	padding:0 20px;
+	background-color: black;
+	line-height: 30px;
+	cursor: pointer; 
+	border: 2px solid #ccc;
+}
+
+#menu>ul>li {
+	top: 50px;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: white;
+}
+
+#menu li:hover {
+	background-color: red;
+}
+
+#menu ul ul {
+	position: absolute;
+	top: 0;
+	left: 160px;
+	visibility: hidden;
+}
+
+#menu ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 160px;
+	visibility: hidden;
+}
+
+#menu ul ul ul ul {
+	position: absolute;
+	top: 0;
+	left: 160px;
+	visibility: hidden;
+}
+
+#menu>ul>li:hover>ul, #menu>ul>li>ul>li:hover>ul, #menu>ul>li>ul>li>ul>li:hover>ul {
+	visibility:visible;
+}
