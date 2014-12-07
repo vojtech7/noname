@@ -24,6 +24,7 @@ body {
 
 .main table {
 	border: 1px solid #000;
+	margin: 0 auto;
 }
 
 .main table.info {

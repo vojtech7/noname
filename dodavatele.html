@@ -1,3 +1,4 @@
+<DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN " "http://www.w3.org/TR/html4/strict">
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -27,7 +28,15 @@
 					<a href="#">Účtování</a>
 					<ul>
 						<li><a href="#">Zaúčtování</a></li>
-						<li><a href="#">Vystavení dokladu</a></li>
+						<li>
+							<a href="#">Vystavení dokladu</a>
+							<ul>
+								<li><a href="novy_dokument.php?dokument=doklad&typ=prijem">Přijmový doklad</a></li>
+								<li><a href="novy_dokument.php?dokument=doklad&typ=vydej">Výdajový doklad</a></li>
+								<li><a href="novy_dokument.php?dokument=faktura&typ=prijata">Přijatá faktura</a></li>
+								<li><a href="novy_dokument.php?dokument=faktura&typ=vydana">Vydaná faktura</a></li>
+							</ul>
+						</li>
 						<li>
 							<a href="#">Hromadné operace</a>
 
@@ -87,7 +96,14 @@
 		</div>
 		
 		<div class="main">
-			text stránky
+			<h1>Dodavatelé</h1>
+			<table cellpadding="0" cellspacing="0">
+				<tr>
+					<th>Číslo</th>
+					<th>Název dodavatele</th>
+					<th>Kontaktní osoba</th>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>
