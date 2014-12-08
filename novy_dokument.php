@@ -83,7 +83,8 @@ use Nette\Forms\Form;
 					$faktura->addText('uhrada', 'F. uhrady');
 					
 					$faktura->addGroup('mena');
-					$faktura->addText('mena', 'Měna');
+					$faktura->addText('mena', 'Měna')
+						->setDefaultValue('Kč');
 					$faktura->addText('kurz', 'Kurz');
 					
 					echo $faktura;
@@ -104,7 +105,8 @@ use Nette\Forms\Form;
 					$doklad->addTextArea('polozky', 'Položky');
 
 					$doklad->addGroup('mena');
-					$doklad->addText('mena', 'Měna');
+					$doklad->addText('mena', 'Měna')
+							->setDefaultValue('Kč');
 					$doklad->addText('kurz', 'Kurz');
 
 					echo $doklad;

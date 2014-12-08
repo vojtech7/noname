@@ -4,9 +4,11 @@ use Nette\Forms\Form;
 
 $hlavicka = new Form;
 $hlavicka->addText('radku', 'Počet řádků')
-		->setType('number');
+		->setType('number')
+		->setDefaultValue(0);
 $hlavicka->addText('c_vypisu', 'Číslo výpisu')
-		->setType('number');
+		->setType('number')
+		->setDefaultValue(1);
 $hlavicka->addText('date', 'Datum');
 
 $data = new Form;
