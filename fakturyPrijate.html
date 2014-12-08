@@ -8,7 +8,7 @@
 
 	<body>
 		<div class="top-menu">
-			<table>
+			<table cellspacing=0>
 				<tr>
 					<td><a href="denik.html">Deník</a></td>
 					<td><a href="fakturyPrijate.html">Přijaté faktury</a></td>
@@ -24,19 +24,22 @@
 
 		<div id="menu">
 			<ul>
+				<li class="vlastni_akce"> <a href="novy_dokument.php?dokument=faktura&typ=prijata">Přijatá faktura</li>
+
+				<li>
+					<a href="#">Vystavení dokladu</a>
+					<ul>
+						<li><a href="novy_dokument.php?dokument=doklad&typ=prijem">Přijmový doklad</a></li>
+						<li><a href="novy_dokument.php?dokument=doklad&typ=vydej">Výdajový doklad</a></li>
+						<li><a href="novy_dokument.php?dokument=faktura&typ=prijata">Přijatá faktura</a></li>
+						<li><a href="novy_dokument.php?dokument=faktura&typ=vydana">Vydaná faktura</a></li>
+					</ul>
+				</li>
 				<li>
 					<a href="#">Účtování</a>
 					<ul>
 						<li><a href="#">Zaúčtování</a></li>
-						<li>
-							<a href="#">Vystavení dokladu</a>
-							<ul>
-								<li><a href="novy_dokument.php?dokument=doklad&typ=prijem">Přijmový doklad</a></li>
-								<li><a href="novy_dokument.php?dokument=doklad&typ=vydej">Výdajový doklad</a></li>
-								<li><a href="novy_dokument.php?dokument=faktura&typ=prijata">Přijatá faktura</a></li>
-								<li><a href="novy_dokument.php?dokument=faktura&typ=vydana">Vydaná faktura</a></li>
-							</ul>
-						</li>
+						
 						<li>
 							<a href="#">Hromadné operace</a>
 
@@ -96,10 +99,10 @@
 		</div>
 		
 		<div class="main">
-			<table cellpadding="0" cellspacing="0">
+			<table cellpadding="0" cellspacing="0" class="main_table">
 				<h1>Přijaté faktury</h1>
 				<tr>
-					<th>Číslo faktury</th>
+					<th>Číslo přijaté faktury</th>
 					<th>Odběratel</th>
 					<th>Fakturováno</th>
 					<th>Vystaveno</th>

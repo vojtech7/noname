@@ -10,10 +10,9 @@ body {
 */
 
 .main {
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
-	top: -175;
+	position: absolute;
+	top: 80;
+	left: 250;
 	background: #B2B2B2;
 	width: 900;
 	height: 600;
@@ -26,6 +25,12 @@ body {
 	border: 1px solid #000;
 	margin: 0 auto;
 }
+
+.empty_row {
+	height: 25px;
+	color: #B2B2B2;
+}
+
 
 .main table.info {
 	border-spacing: 0;
@@ -53,6 +58,10 @@ body {
 	left: 60px;
 }
 
+.main_table {
+	width: 700;
+}
+
 /***********************************************************************
 ************************************************************************
 	                       Horni menu
@@ -62,22 +71,30 @@ body {
 
 .top-menu {
 	position: absolute;
-	/*margin-left: 11em;
-	top: 50;
-	*/
+	left: 10;
+	top: 15;
+	
 }
 
 .top-menu table{
 	padding: inherit;
 	border: none;
+	width: 100%;
 }
 
 .top-menu td {
-	background: red;
+	height: 30;
+	width: 120;
+	background: #DCDCDC;
 	padding: inherit;
 	width: 120px;
 	text-align: center;
-	border: 2px solid #000;
+	border: 1px solid #454545;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	font-size: 17;
+	font-weight: bold;
+	width: 150px;
 }
 
 .top-menu a{
@@ -93,6 +110,8 @@ body {
 	background: yellow;
 }
 
+
+
 /***********************************************************************
 ************************************************************************
 	                       Leve menu
@@ -107,6 +126,7 @@ body {
 	margin: 0;
 	z-index: 20;
 	text-align: center;
+	margin-bottom: 5px;
 }
 
 #menu li {
@@ -114,10 +134,14 @@ body {
 	position: relative;
 	width: 120px;
 	padding:0 20px;
-	background-color: black;
+	background-color: #FFAD00;
 	line-height: 30px;
 	cursor: pointer; 
-	border: 2px solid #ccc;
+	border: 2px solid #343434;
+	font-size: 17;
+	font-family: arial;
+	color: #343434;
+	border-radius: 3px;
 }
 
 #menu>ul>li {
@@ -138,6 +162,7 @@ body {
 	top: 0;
 	left: 160px;
 	visibility: hidden;
+	margin: 5;
 }
 
 #menu ul ul ul {
@@ -156,4 +181,18 @@ body {
 
 #menu>ul>li:hover>ul, #menu>ul>li>ul>li:hover>ul, #menu>ul>li>ul>li>ul>li:hover>ul {
 	visibility:visible;
+}
+
+#menu li#mezera {background: #00CC4C;
+				 height: 50px;
+				 border: none;
+				}
+#posledni_akce {
+	background: 
+}
+#menu {
+	position: absolute;
+	top: 30;
+	left: 40;
+
 }

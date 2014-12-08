@@ -214,8 +214,8 @@ use Nette\Forms\Form;
 					<input type="text" id="prepis">
 				
 			</div>
-			<input type="button" value="Uložit fakturu" id="ulozit" class="tlacitko">
-			<input type="button" value="Zpět" id="zpet" class="tlacitko">
+			<input type="button" value="Uložit fakturu" id="ulozit" class="tlacitko" onclick="location.href='denik.html'">
+			<input type="button" value="Zpět" id="zpet" class="tlacitko" onclick="location.href='denik.html'">
 		</div>
 
 
